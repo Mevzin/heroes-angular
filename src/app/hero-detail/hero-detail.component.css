@@ -1,5 +1,5 @@
 label {
-  color: #435960;
+  color: rgb(173, 169, 169);
   font-weight: bold;
 }
 input {
@@ -7,11 +7,14 @@ input {
   padding: .5rem;
 }
 button {
-  margin-top: 20px;
+  margin-top: 0.5em;
+  margin-left: 1em;
   background-color: #eee;
   padding: 1rem;
   border-radius: 4px;
   font-size: 1rem;
+  width: 5.5em;
+  text-align: center;
 }
 button:hover {
   background-color: #cfd8dc;
@@ -20,4 +23,21 @@ button:disabled {
   background-color: #eee;
   color: #ccc;
   cursor: auto;
+}
+.idHero{
+  color:rgb(173, 169, 169);
+}
+
+div label{
+  display: block;
+}
+
+.heroDetailContainer{
+border-style: solid;
+border-color: white;
+border-radius: 1em;
+margin-top: 1em;
+justify-items: center;
+padding-left: 2em;
+padding-bottom: 2em;
 }
